@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string-array name="spinner_entries">
+        <item>Wszystkie</item>
+        <item>Obejrzane</item>
+        <item>Nieobejrzane</item>
+    </string-array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#19191E"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ItemNameRowLabel"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:paddingStart="20dp"
+            android:gravity="center"
+            android:inputType="textImeMultiLine"
+            android:minHeight="48dp"
+            android:text="Tytuł"
+            android:textAlignment="textStart"
+            android:textColor="@color/labels"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ItemStatusRowLabel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="Przeczytane"
+            android:textAlignment="textStart"
+            android:textColor="@color/labels"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/OpenItemButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:fontFamily="sans-serif-black"
+            android:padding="0dp"
+            android:text="Edytuj"
+            android:textColor="#19191E" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
